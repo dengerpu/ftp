@@ -22,11 +22,12 @@ public class FtpServer {
             System.out.println("The first thing need to do is set the shared filePath!");
             System.out.println("For example: c:/");
             System.out.println("/*********************************************************/");
-            System.out.print("==>Please Input the Shared Path:");
-            if(!(path=readPath.readLine()).equals("")){
-                ftpPath = path;
-            }
-          //  System.out.println("文件上传根目录："+ftpPath);
+           // System.out.print("==>Please Input the Shared Path:");
+           // if(!(path=readPath.readLine()).equals("")){
+              //  ftpPath = path;
+            //}
+
+            //  System.out.println("文件上传根目录："+ftpPath);
             //初始化上传文件存放文件夹"upload"
             //File.separator代表系统目录中的间隔线，可以解决兼容问题
             File downDirctory = new File(ftpPath + File.separator + "Upload");
@@ -34,6 +35,7 @@ public class FtpServer {
                 downDirctory.isDirectory();
                 downDirctory.mkdir();
             }
+
             System.out.println(downDirctory);
         }catch (IOException e){
             e.printStackTrace();
@@ -50,7 +52,7 @@ public class FtpServer {
     public void  run(ServerSocket serverSocket) throws Exception{
         boolean judge = true;
         while (judge){
-            //接收多个客户端为每个客户端建立连接0o
+            //接收多个客户端为每个客户端建立连接
             Socket client = serverSocket.accept();
             Thread thread = new Thread(new ClientConnect(client, FtpServer.ftpPath));
             thread.start();

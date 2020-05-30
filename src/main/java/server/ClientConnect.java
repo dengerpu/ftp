@@ -5,12 +5,11 @@ import main.java.java.util.FileBean;
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /*
-* 实现多客户连接的线程类编写
-* */
+ * 实现多客户连接的线程类编写
+ * */
 public class ClientConnect implements Runnable {
     Socket clientConnectSocket;    //客户端连接套接字
     BufferedReader receiveFormClient;   //服务器控制信息输入流
@@ -28,7 +27,7 @@ public class ClientConnect implements Runnable {
         String[] subFile = menu.list();
         File[] file = menu.listFiles();
         List<FileBean> list = new ArrayList<FileBean>();
-        sentToClient.println("/***************文件开始展示***************/");
+        sentToClient.println("/***************The shared files show start***************/");
         for (int i = 0; i < subFile.length; i++) {
             FileBean fileBean = new FileBean();
             fileBean.setFilename(file[i].getName());
@@ -61,8 +60,8 @@ public class ClientConnect implements Runnable {
 
 
     /**
-    * 下载文件到客服端
-    * */
+     * 下载文件到客服端
+     * */
     public void downToClient(OutputStream os,BufferedReader receiveFormClient)throws Exception{
         int content;
         String fileName = null;
@@ -102,10 +101,10 @@ public class ClientConnect implements Runnable {
                 }
                 downFile.close(); //关闭文件
                 handShake = receiveFormClient.readLine();  //接收客户端的接收完毕信号
-               if(handShake.equalsIgnoreCase("finished")) {  //发送文件下载完毕信号
-                   System.out.println("DownLoad successful!");
-                   sentToClient.println("The file:" + "\" "+ fileName + "\""+ "is download completely!");
-               }
+                if(handShake.equalsIgnoreCase("finished")) {  //发送文件下载完毕信号
+                    System.out.println("DownLoad successful!");
+                    sentToClient.println("The file:" + "\" "+ fileName + "\""+ "is download completely!");
+                }
 
             }catch (Exception e){
                 //当待下载的文件
@@ -140,12 +139,13 @@ public class ClientConnect implements Runnable {
             }
             fileName = handShake;
             System.out.println("Ready to upload：" + fileName);
-            if(receiveFormClient.readLine().equalsIgnoreCase("continue")){
+           // if(receiveFormClient.readLine().equalsIgnoreCase("continue")){
                 int fileLength = Integer.parseInt(receiveFormClient.readLine());
                 System.out.println("上传文件大小：" + fileLength);
                 try{
                     //在服务器端生成客户端上传的文件
-                    FileOutputStream fileCopy = new FileOutputStream(ftpPath);
+                   String filename1 = fileName.substring(fileName.lastIndexOf('\\')+1);
+                    FileOutputStream fileCopy = new FileOutputStream("C:"+ File.separator + "Upload"+File.separator+filename1);
                     for (int i = 0; i < fileLength; i++) {
                         fileCopy.write(is.read());  //将文件上传到服务器
                     }
@@ -157,7 +157,7 @@ public class ClientConnect implements Runnable {
                     }
 
                 }catch (Exception e){
-                    //e.printStackTrace();
+                    e.printStackTrace();
                     sentToClient.println("**warnning**:This file can'n be uploaded! ");
                 }
             }else{
@@ -165,12 +165,12 @@ public class ClientConnect implements Runnable {
                 handShake = receiveFormClient.readLine();// 接收客户端的接收完毕信号
                 if (handShake.equalsIgnoreCase("finished"))// 发送文件上传完毕信号{
                     sentToClient.println("The file:" + "\" "+ fileName + "\""+ "can'n be uploaded!");
-                }
             }
         }
-        /*
-        * 线程运行类
-        * */
+    //}
+    /*
+     * 线程运行类
+     * */
     @Override
     public void run() {
         try{

@@ -42,7 +42,7 @@ public class FileBean {
     }
 
     public void setFileType(String fileType) {
-        this.fileType = fileType;
+            this.fileType = fileType;
     }
 
     public String getFileLength() {

@@ -1,6 +1,8 @@
 package main.java.java;
 
 import main.java.client.FtpClient;
+import main.java.client.RunClient;
+import main.java.server.RunServer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -80,8 +82,9 @@ public class Login extends JFrame {
             {
                 try{
                    // new Login();
-                    FtpClient.options = "ls";
+                   // new RunClient();
                     System.out.println("登陆事件");
+                   // new ClientUI();
                     //flag++;
                 }catch(HeadlessException e1) {
                     e1.printStackTrace();

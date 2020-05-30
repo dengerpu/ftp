@@ -1,39 +1,22 @@
 package main.java.java;
 
-
-        import main.java.client.FtpClient;
-
-        import java.awt.*;
-        import java.awt.event.ActionEvent;
-        import java.awt.event.ActionListener;
-
-        import javax.swing.JButton;
-        import javax.swing.JComboBox;
-        import javax.swing.JDialog;
-        import javax.swing.JFrame;
-        import javax.swing.JLabel;
-        import javax.swing.JOptionPane;
-        import javax.swing.JPanel;
-        import javax.swing.JScrollPane;
-        import javax.swing.JTable;
-        import javax.swing.JTextField;
-        import javax.swing.ListSelectionModel;
+import main.java.client.FtpClient;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileSystemView;
 
 
 public class ClientUI {
 
-  //  static HeroTableModel htm = new HeroTableModel();
     // 表格上的title
     static String[] columnNames = new String[] { "名称", "修改日期", "类型", "大小" };
     // 表格中的内容，是一个二维数组
-    //static String[][] heros = new String[][] { { "1", "盖伦", "616", "100" },
-          //  { "2", "提莫", "512", "102" }, { "3", "奎因", "832", "200" } };
-
-
     static String[][] files = FtpClient.files;
-
     static String[][] file = new String[10][100];
-
 
     static JTable t = new JTable(file,columnNames);
 
@@ -50,7 +33,7 @@ public class ClientUI {
 
     public  ClientUI() {
 
-        final JFrame f = new JFrame("LoL");
+        final JFrame f = new JFrame("FTP客户端");
         f.setSize(400, 340);
         f.setLocation(200, 200);
 
@@ -61,11 +44,11 @@ public class ClientUI {
         JPanel pOperation = new JPanel();
 
         JButton bAdd = new JButton("上传");
-        JButton bDelete = new JButton("下载");
-        JButton bEdit = new JButton("帮助");
+        JButton bDown = new JButton("下载");
+        JButton bF5 = new JButton("刷新");
         pOperation.add(bAdd);
-        pOperation.add(bDelete);
-        pOperation.add(bEdit);
+        pOperation.add(bDown);
+        pOperation.add(bF5);
 
         JPanel pPage = new JPanel();
 
@@ -75,8 +58,22 @@ public class ClientUI {
 
         pPage.add(bNext);
         pPage.add(bLast);
+        //按钮点击事件
 
-        bEdit.addActionListener(new ActionListener() {
+//        chooser.setFileFilter(new FileFilter() {
+////            @Override
+////            public String getDescription() {
+////                // TODO Auto-generated method stub
+////                return ".txt";
+////            }
+////
+////            @Override
+////            public boolean accept(File f) {
+////                return f.getName().toLowerCase().endsWith(".txt");
+////            }
+////        });
+
+        bF5.addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -100,43 +97,54 @@ public class ClientUI {
 
             }
         });
-
+       // 上传操作
         bAdd.addActionListener(new ActionListener() {
-
             @Override
             public void actionPerformed(ActionEvent e) {
-                new AddDialog(f).setVisible(true);
-
-                updateButtonStatus();
-            }
-        });
-        bDelete.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-                // 判断是否选中
-                int index = t.getSelectedRow();
-                if (-1 == index) {
-                    JOptionPane.showMessageDialog(f, "删除前需要先选中一行");
-                    return;
+                FtpClient ftpClient = new FtpClient();
+                JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());             //设置选择器
+                chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+                chooser.setDialogTitle("选择文件上传到Ftp服务器");
+                int returnVal = chooser.showDialog(null, "上传");        //是否打开文件选择框
+                File file = chooser.getSelectedFile();
+                if (returnVal == JFileChooser.APPROVE_OPTION) {
+                    if (chooser.getSelectedFile().isFile()) {
+                        ftpClient.UpLoadFun(file.getAbsolutePath());
+                    }
                 }
-
-                // 进行确认是否要删除
-                if (JOptionPane.OK_OPTION != JOptionPane.showConfirmDialog(f, "确认要删除？"))
-                    return;
-
-                // 获取id
-//                Hero hero = htm.heros.get(index);
-//                int id = hero.id;
-
-
+                JOptionPane.showMessageDialog(f, "上传成功");
 
                 // 更新table
                 start = 0;
                 updateTable();
                 updateButtonStatus();
+            }
+        });
+        //下载操作
+        bDown.addActionListener(new ActionListener() {
 
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 判断是否选中
+                int index = t.getSelectedRow();
+                if (-1 == index) {
+                    JOptionPane.showMessageDialog(f, "请选择需要下载的内容");
+                    return;
+                }
+
+                FtpClient ftpClient = new FtpClient();
+                JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());             //设置选择器
+                chooser.setDialogTitle("选择文件目录保存文件 ");
+                chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                int returnVal =  chooser.showSaveDialog(null);        //是否打开文件选择框
+                File file = chooser.getSelectedFile();
+                if (returnVal == JFileChooser.APPROVE_OPTION) {
+                    if (chooser.getSelectedFile().isDirectory()) {
+                        String savePath =  file.getAbsolutePath()+ File.separator + files[index][0];
+                        ftpClient.DownFun(files[index][0],savePath);
+                    }
+                }
+                JOptionPane.showMessageDialog(f, "下载完毕");
             }
         });
 
@@ -261,70 +269,6 @@ public class ClientUI {
 
     }
 
-    static class AddDialog extends JDialog {
-        JLabel lName = new JLabel("名称");
-        JLabel lHp = new JLabel("血量");
-
-        JTextField tfName = new JTextField();
-        JTextField tfHp = new JTextField();
-
-        JButton bSubmit = new JButton("提交");
-
-        AddDialog(JFrame f) {
-            super(f);
-            this.setModal(true);
-            int gap = 50;
-            this.setLayout(null);
-
-            JPanel pInput = new JPanel();
-            JPanel pSubmit = new JPanel();
-
-            pInput.setLayout(new GridLayout(2, 2, gap, gap));
-            pInput.add(lName);
-            pInput.add(tfName);
-            pInput.add(lHp);
-            pInput.add(tfHp);
-
-            pSubmit.add(bSubmit);
-
-            pInput.setBounds(50, 20, 200, 100);
-            pSubmit.setBounds(0, 130, 300, 150);
-
-            this.add(pInput);
-            this.add(pSubmit);
-
-            this.setSize(300, 200);
-            this.setLocationRelativeTo(f);
-            bSubmit.addActionListener(new ActionListener() {
-
-                @Override
-                public void actionPerformed(ActionEvent e) {
-
-//                    if (checkEmpty(tfName, "名称")) {
-//                        if (checkNumber(tfHp, "hp")) {
-//
-//                            String name = tfName.getText();
-//                            int hp = Integer.parseInt(tfHp.getText());
-//
-////                            Hero h = new Hero();
-////                            h.name = name;
-////                            h.hp = hp;
-//                            //上传操作
-//
-//                            JOptionPane.showMessageDialog(f, "提交成功 ");
-//
-//                            AddDialog.this.setVisible(false);
-//                            start = 0;
-//                            updateTable();
-//                        }
-//                    }
-                    System.out.println("执行上传操作");
-                }
-            });
-
-        }
-    }
-
     //更新表格中的内容
     public static void updateTable() {
 
@@ -337,7 +281,6 @@ public class ClientUI {
         }
         t.updateUI();
         t.getSelectionModel().setSelectionInterval(0, 0);
-        System.out.println("更新表格内容");
     }
 
     private static boolean checkEmpty(JTextField tf, String msg) {
@@ -456,4 +399,5 @@ public class ClientUI {
         return last;
 
     }
+
 }
