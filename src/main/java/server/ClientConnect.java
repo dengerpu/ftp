@@ -2,6 +2,7 @@ package main.java.server;
 
 import main.java.java.util.FileBean;
 
+import javax.swing.*;
 import java.io.*;
 import java.net.Socket;
 import java.util.ArrayList;

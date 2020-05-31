@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936ab129-5383-4cdf-9f14-577247f05575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ftp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/FtpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/client/FtpClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/RunClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/client/RunClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/TransferInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/client/TransferInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Check.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$3.class" afterDir="false" />
@@ -15,25 +25,31 @@
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$AddDialog$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$AddDialog.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$MyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$MyListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/ClientConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/server/ClientConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/FtpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/server/FtpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/RunServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/server/RunServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/FtpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/FtpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/RunClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/RunClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Check.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/java/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/ClientUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/FileOpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/FileUI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/FileBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/util/FileBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/util/Progress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/FtpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/FtpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/RunServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/RunServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="114" column="57" lean-forward="true" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+            <state relative-caret-position="1026">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,38 +78,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/server/RunServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/FtpServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-209">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java/util/Progress.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientConnect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="148" column="58" lean-forward="true" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
+            <state relative-caret-position="354">
+              <caret line="121" column="39" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,13 +97,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/FtpClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2739">
-              <caret line="242" selection-start-line="242" selection-end-line="242" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="95">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/client/RunClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -130,6 +131,8 @@
       <find>number</find>
       <find>System</find>
       <find>listFiles</find>
+      <find>TransferInfo.</find>
+      <find>TransferInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,9 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java/Check.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java/Register.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Receive.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/FileUI.java" />
@@ -153,21 +153,28 @@
         <option value="$PROJECT_DIR$/src/main/java/java/util/File.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Text.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/RunServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/RunClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/util/FileBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/FileOpen.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/FtpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/FtpClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/java/ClientUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/util/Progress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/util/UseMysql.java" />
+        <option value="$PROJECT_DIR$/src/druid.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/java/ClientUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/client/RunClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlet/CheckCodeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/Check.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/Register.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/Login.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="65" />
-    <option name="y" value="12" />
+    <option name="y" value="10" />
     <option name="width" value="1750" />
     <option name="height" value="945" />
   </component>
@@ -215,20 +222,18 @@
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +250,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/servlet" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -261,7 +266,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ftp\src\main\java\servlet" />
       <recent name="D:\ftp\web\WEB-INF\lib" />
+      <recent name="D:\ftp\src" />
+      <recent name="D:\ftp\src\main\java\java\util" />
       <recent name="D:\ftp\src\img" />
     </key>
   </component>
@@ -277,9 +285,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RunClient">
-    <configuration name="ClientUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.java.ClientUI" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.java.Check" />
       <module name="ftp" />
       <extension name="coverage">
         <pattern>
@@ -366,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunClient" />
-        <item itemvalue="Application.RunServer" />
-        <item itemvalue="Application.FileOpen" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ClientUI" />
+        <item itemvalue="Application.Check" />
+        <item itemvalue="Application.RunServer" />
+        <item itemvalue="Application.RunClient" />
+        <item itemvalue="Application.FileOpen" />
       </list>
     </recent_temporary>
   </component>
@@ -401,12 +409,14 @@
       <workItem from="1590656535049" duration="2230000" />
       <workItem from="1590704191248" duration="12426000" />
       <workItem from="1590792802224" duration="5100000" />
-      <workItem from="1590824467105" duration="11629000" />
+      <workItem from="1590824467105" duration="13545000" />
+      <workItem from="1590878655999" duration="13122000" />
+      <workItem from="1590966497702" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96304000" />
+    <option name="totallyTimeSpent" value="111378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,7 +431,42 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49367088" visible="true" weight="0.18699732" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49367088" visible="true" weight="0.19235925" />
+      <window_info id="Structure" order="1" sideWeight="0.5063291" side_tool="true" weight="0.18699732" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38668555" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49367088" visible="true" weight="0.18967828" />
       <window_info id="Structure" order="1" sideWeight="0.5063291" side_tool="true" weight="0.18699732" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,7 +476,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38668555" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38668555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,22 +499,12 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Check.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="132" column="5" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/ftp/ftpftp/src/client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4766">
@@ -488,35 +523,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/ccc.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/java/FtpClientUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/FileUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/util/File.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -533,13 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/Text.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/util/FileBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -554,23 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/TransferInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/client/Receive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-304">
@@ -582,37 +564,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/RunClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/FileOpen.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/TransferInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/ClientConnect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="148" column="58" lean-forward="true" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
+        <state relative-caret-position="189">
+          <caret line="148" column="127" selection-start-line="148" selection-start-column="127" selection-end-line="148" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/util/Progress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="114" column="57" lean-forward="true" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/FtpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2739">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        <state relative-caret-position="399">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -621,18 +594,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/FtpServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="57">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/FileOpen.java">
+    <entry file="file://$PROJECT_DIR$/src/druid.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="51" column="50" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="50" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/util/UseMysql.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/FtpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2471">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/FileUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlet/CheckCodeServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -641,15 +668,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/server/RunServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/util/Progress.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/RunClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="190">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="121" column="39" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

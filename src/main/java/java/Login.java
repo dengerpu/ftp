@@ -73,7 +73,12 @@ public class Login extends JFrame {
                     new Register();
             }
         });
-
+        jlb4.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                if(e.getButton()==MouseEvent.BUTTON1)
+                    JOptionPane.showMessageDialog(null, "联系管理员","消息提示",JOptionPane.WARNING_MESSAGE);
+            }
+        });
     }
     //为登陆动作监听事件执行处理
     class MyListener implements ActionListener {
@@ -81,11 +86,7 @@ public class Login extends JFrame {
             if(e.getActionCommand()=="登陆")
             {
                 try{
-                   // new Login();
-                   // new RunClient();
-                    System.out.println("登陆事件");
-                   // new ClientUI();
-                    //flag++;
+                    login();
                 }catch(HeadlessException e1) {
                     e1.printStackTrace();
                 }}
@@ -102,35 +103,23 @@ public class Login extends JFrame {
     }
 
     //验证登录信息
-    /*
-    public void Login() throws HeadlessException, IOException, SQLException{
+
+    public void login() throws HeadlessException{
         char[] a=jpf.getPassword();
         String password=String.valueOf(a);   //将字符数组转化为字符串
         String accountname=jtf.getText();
-        usemysql use=new usemysql();  //创建对象
-        boolean bl=false;
-        try {
-            bl=use.finduser(accountname, password);
-        }catch(SQLException el) {
-            el.printStackTrace();
-        }
+        Check check = new Check();
         if(jtf.getText().isEmpty()&&password.isEmpty())
             JOptionPane.showMessageDialog(null, "账号密码为空，请输入！","消息提示",JOptionPane.WARNING_MESSAGE);
         else if(jtf.getText().isEmpty())
             JOptionPane.showMessageDialog(null,"账号为空，请输入！","消息提示",JOptionPane.WARNING_MESSAGE);
         else if(password.isEmpty())
             JOptionPane.showMessageDialog(null,"密码为空，请输入！","消息提示",JOptionPane.WARNING_MESSAGE);
-        else if(!new Check().check1(accountname))
-            JOptionPane.showMessageDialog(null,"账号不存在！","消息提示",JOptionPane.WARNING_MESSAGE);
-        else if(!new Check().check3(accountname))
-            JOptionPane.showMessageDialog(null,"账户已被锁定，请带身份证到柜台办理","消息提示",JOptionPane.WARNING_MESSAGE);
-        else if(flag==3) {
-            new usemysql().guashi(jtf.getText(), "1");
-            JOptionPane.showMessageDialog(null,"账户已被锁定，请带身份证到柜台办理","消息提示",JOptionPane.WARNING_MESSAGE);}
-        else if(bl)
+        else if(check.check2(accountname, password))
         {
             JOptionPane.showMessageDialog(null,"登陆成功","消息提示",JOptionPane.WARNING_MESSAGE);
-            new Menu(accountname);
+         //  new RunClient();
+            System.out.println("登陆成功");
             dispose();   //使窗口消失
         }
         else {
@@ -138,5 +127,5 @@ public class Login extends JFrame {
             clear();  //调用清除函数
         }
     }
-    */
+
 }

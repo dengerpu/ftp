@@ -1,6 +1,8 @@
 package main.java.java;
 
 import main.java.client.FtpClient;
+import main.java.java.util.Progress;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -59,19 +61,6 @@ public class ClientUI {
         pPage.add(bNext);
         pPage.add(bLast);
         //按钮点击事件
-
-//        chooser.setFileFilter(new FileFilter() {
-////            @Override
-////            public String getDescription() {
-////                // TODO Auto-generated method stub
-////                return ".txt";
-////            }
-////
-////            @Override
-////            public boolean accept(File f) {
-////                return f.getName().toLowerCase().endsWith(".txt");
-////            }
-////        });
 
         bF5.addActionListener(new ActionListener() {
 
@@ -143,8 +132,8 @@ public class ClientUI {
                         String savePath =  file.getAbsolutePath()+ File.separator + files[index][0];
                         ftpClient.DownFun(files[index][0],savePath);
                     }
+                    JOptionPane.showMessageDialog(f, "下载完毕");
                 }
-                JOptionPane.showMessageDialog(f, "下载完毕");
             }
         });
 
