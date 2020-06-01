@@ -73,7 +73,7 @@ public class ClientUI {
             @Override
             public void actionPerformed(ActionEvent e) {
                 FtpClient ftpClient = new FtpClient();
-                JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());             //设置选择器
+                JFileChooser chooser = new JFileChooser(FileSystemView.getFileSystemView().getHomeDirectory());
                 chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
                 chooser.setDialogTitle("选择文件上传到Ftp服务器");
                 int returnVal = chooser.showDialog(null, "上传");        //是否打开文件选择框

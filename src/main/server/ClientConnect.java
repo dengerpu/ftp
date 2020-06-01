@@ -213,7 +213,7 @@ public class ClientConnect implements Runnable {
             sentToClient.close();
             clientConnectSocket.close();
         }catch (IOException e){
-
+            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
