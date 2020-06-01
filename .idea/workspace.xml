@@ -2,54 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="936ab129-5383-4cdf-9f14-577247f05575" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/FTP.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ftp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/RunClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/client/RunClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/TransferInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/client/TransferInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Check.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Check.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileOpen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/FileUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$MyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$MyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/java/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/ClientConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ftp/main/java/server/ClientConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/RunClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/RunClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/ClientUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/ClientUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/FileOpen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/FileUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java/util/Progress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/img/银行卡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/FtpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/Receive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/RunClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/client/TransferInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Check.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI$EditDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/ClientUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login$MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/util/FileBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/util/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/util/Progress$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/java/util/Progress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/ClientConnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/FtpServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ftp/main/java/server/RunServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/银行卡.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/FtpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/Receive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/RunClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/client/TransferInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/ClientUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/FileBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java/util/Progress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/FtpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/RunServer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,10 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
+        <entry file="file://$PROJECT_DIR$/src/main/server/RunServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,40 +78,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/RunServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/server/FtpServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="95">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/client/TransferInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/main/server/ClientConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="121" column="39" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+            <state relative-caret-position="126">
+              <caret line="190" selection-start-line="190" selection-end-line="190" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#869#879#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="190">
+              <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/RunClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="95">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -133,6 +148,7 @@
       <find>listFiles</find>
       <find>TransferInfo.</find>
       <find>TransferInfo</find>
+      <find>run</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,8 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/Receive.java" />
@@ -163,16 +177,31 @@
         <option value="$PROJECT_DIR$/src/main/java/java/util/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/util/UseMysql.java" />
         <option value="$PROJECT_DIR$/src/druid.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/java/ClientUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/RunClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlet/CheckCodeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Check.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Register.java" />
         <option value="$PROJECT_DIR$/src/main/java/java/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/java/ClientUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/FileBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/client/Receive.java" />
+        <option value="$PROJECT_DIR$/src/main/client/RunClient.java" />
+        <option value="$PROJECT_DIR$/src/main/server/ClientConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Check.java" />
+        <option value="$PROJECT_DIR$/src/main/client/FtpClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Progress.java" />
+        <option value="$PROJECT_DIR$/src/main/server/RunServer.java" />
+        <option value="$PROJECT_DIR$/src/main/server/FtpServer.java" />
+        <option value="$PROJECT_DIR$/src/main/client/TransferInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClientUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Register.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
@@ -201,27 +230,41 @@
               <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -250,7 +293,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -266,11 +309,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ftp\src\img" />
       <recent name="D:\ftp\src\main\java\servlet" />
       <recent name="D:\ftp\web\WEB-INF\lib" />
       <recent name="D:\ftp\src" />
       <recent name="D:\ftp\src\main\java\java\util" />
-      <recent name="D:\ftp\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Check" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.java.Check" />
       <module name="ftp" />
@@ -299,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOpen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.java.FileOpen" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="ftp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.java.*" />
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.client.RunClient" />
+    <configuration name="RunServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.server.RunServer" />
       <module name="ftp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.client.*" />
+          <option name="PATTERN" value="main.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.RunServer (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Check" />
         <item itemvalue="Application.RunServer" />
-        <item itemvalue="Application.RunClient" />
-        <item itemvalue="Application.FileOpen" />
       </list>
     </recent_temporary>
   </component>
@@ -411,12 +454,12 @@
       <workItem from="1590792802224" duration="5100000" />
       <workItem from="1590824467105" duration="13545000" />
       <workItem from="1590878655999" duration="13122000" />
-      <workItem from="1590966497702" duration="36000" />
+      <workItem from="1590966497702" duration="8156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111378000" />
+    <option name="totallyTimeSpent" value="119498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +472,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49367088" visible="true" weight="0.19235925" />
       <window_info id="Structure" order="1" sideWeight="0.5063291" side_tool="true" weight="0.18699732" />
@@ -628,13 +670,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/FileUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servlet/CheckCodeServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/java/Check.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,33 +678,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/RunServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -689,10 +697,175 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/java/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="121" column="39" lean-forward="true" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
+        <state relative-caret-position="444">
+          <caret line="123" selection-start-line="122" selection-end-line="123" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/RunServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java/ClientUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4268">
+          <caret line="281" column="4" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/FileBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/client/Receive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/client/RunClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Check.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Progress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/client/FtpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="86" column="92" lean-forward="true" selection-start-line="86" selection-start-column="92" selection-end-line="86" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/server/RunServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/server/FtpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/client/TransferInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClientUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="81" column="59" selection-start-line="81" selection-start-column="59" selection-end-line="81" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/server/ClientConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#879#0" expanded="true" />
           </folding>
         </state>
       </provider>
